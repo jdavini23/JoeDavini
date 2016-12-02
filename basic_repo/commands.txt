@@ -1,0 +1,7 @@
+The first thing I did was logged on github and created a new repo
+I then init via terminal and did mkdir for basic_repo
+then I added 3 files by touch: styles.css index.html aboutMe.txt
+I then added content to the aboutMe.txt via vi aboutMe.txt
+I did git add . and then git commit -m "notes" then went with git push
+opened up aboutMe.txt with vi again and edited file
+then commited and pushed files back via git commit and push
