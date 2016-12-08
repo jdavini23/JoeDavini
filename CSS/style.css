@@ -3,6 +3,9 @@
  margin: 0px;
  padding: 0px;
 }
+body {
+  width: 970;
+}
 #wrapper{
  width: 950px;
  background-color: silver;

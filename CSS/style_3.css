@@ -4,14 +4,19 @@
 }*/
 body {
   background-color: #224A6B;
+  width: 970px;
 }
 
 .menu {
   display: inline;
   background-color: #346FA1;
+  position: relative;
 }
 .search_bar {
-  margin-left: 100px;
+  margin: 0 auto;
+  float: right;
+  display: inline-block;
+  background-color: black;
 }
 
 .copyright {
