@@ -6,8 +6,9 @@ body {
   background-color: #224A6B;
 }
 
-.nav-bar {
-  display: inline-block;
+.menu {
+  display: inline;
+  background-color: #346FA1;
 }
 .search_bar {
   margin-left: 100px;
@@ -18,6 +19,16 @@ body {
   font-size: 8px;
 }
 
-.bottom {
-  display: inline;
+.footer {
+  text-align: center;
+  list-style: none;
+}
+.bottom li {
+  list-style: none;
+  margin: 0;
+  padding: 15px;
+  display: inline-block;
+}
+.mid-content {
+  background-color: white;
 }
