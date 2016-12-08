@@ -18,10 +18,11 @@ li {
   width: 970px;
   padding: 5px;
   margin: 0 auto;
+  /*clear: both;*/
 }
-.nav-bar .main-content {
+/*.nav-bar .main-content {
   display: inline-block;
-}
+}*/
 .header{
   background-color: red;
   padding: 10px;
@@ -31,6 +32,9 @@ li {
   background-color: #08dbc2;
   padding: 10px;
   border-radius: 10px;
+  display: inline;
+  float: left;
+  clear: both;
 }
 span{
   color: #aa00ff;
