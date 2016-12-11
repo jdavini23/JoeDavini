@@ -26,6 +26,9 @@ body {
     vertical-align: top;
     /*background-color: black;*/
 }
+.text-size a {
+  color: #F3CB46;
+}
 
 .search p {
     text-align: right;
@@ -120,10 +123,37 @@ body {
     border-top: 4px solid #75a8d3;
 }
 
+.bottomnav h3, .bottomnav p {
+  width: 350px;
+  padding-top: 4px;
+  font-size: .9em;
+}
+
+.bottomnav a.small {
+  font-size: 70%;
+  text-decoration: none;
+  color: #75a8d3;
+}
+
+.bottomnav ul {
+  padding-left: 30px;
+  list-style-type: square;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+}
+
+.bottomnav li {
+  padding-right: 50px;
+}
+
+.bottomnav li a {
+  text-decoration: none;
+  color: #75a8d3;
+}
+
 .sidenav {
     display: inline-block;
     width: 190px;
-    /*line-height: 2;*/
     margin-left: 20px;
     vertical-align: top;
     padding-top: 30px;
@@ -131,12 +161,14 @@ body {
 
 .sidenav ul {
     list-style: none;
-    line-height: 1.5;
+    line-height: 26px;
+    font-size: 16px;
+    font-weight: 100;
 }
 
 .sidenav ul a {
   color: white;
-
+  font-weight: 200;
 }
 
 .about {
@@ -144,6 +176,7 @@ body {
     margin-top: 20px;
     width: 520px;
     padding: 0 50px;
+    font-size: 1em;
 }
 
 .colored {
