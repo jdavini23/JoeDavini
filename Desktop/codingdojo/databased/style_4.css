@@ -1,0 +1,30 @@
+* {
+  border: 4px solid red;
+}
+
+body {
+  width: 970px;
+  margin: 0 auto;
+  font-size: .8em;
+}
+
+.header {
+  background: linear-gradient(#eff2ee,#ffffff,#fafafa);
+}
+
+.logo {
+  margin-left: 10px;
+}
+
+.title {
+  display: inline-block;
+  margin-left: 370px;
+  font-weight: bold;
+  font-size: 20px;
+  vertical-align: top;
+  margin-top: 80px;
+}
+
+.navigation-menu li {
+  display: inline-block;
+}
