@@ -1,96 +1,161 @@
 * {
-  border: 4px solid red;
+    border: 4px solid red;
 }
 
 body {
-  width: 970px;
-  margin: 0 auto;
-  font-size: .8em;
-  /*color: #65516E;*/
+    width: 970px;
+    height: 790px;
+    /*margin: 0 auto;*/
+    font-size: .8em;
+    /*background-color: #65516E;*/
+}
+
+.wrapper {
+    /*background-color: #65516E;*/
+    background: -webkit-radial-gradient(circle, #5F4F71, #200D16);
+    background: -moz-radial-gradient(circle, #5F4F71, #200D16);
+    background: radial-gradient(circle, #5F4F71, #200D16);
 }
 
 .header {
-  background: linear-gradient(#eff2ee,#ffffff,#fafafa);
+    background: linear-gradient(#eff2ee, #ffffff, #fafafa);
 }
 
 .logo {
-  margin-left: 10px;
+    margin-left: 10px;
 }
 
 .title {
-  display: inline-block;
-  margin-left: 370px;
-  font-weight: bold;
-  font-size: 20px;
-  vertical-align: top;
-  margin-top: 80px;
+    display: inline-block;
+    margin-left: 370px;
+    font-weight: bold;
+    font-size: 20px;
+    vertical-align: top;
+    margin-top: 60px;
 }
 
 .navigation-menu {
-  list-style-type: none;
-  border: 1px solid black;
-  text-align: center;
+    list-style-type: none;
+    border: 1px solid black;
+    text-align: center;
 }
+
 .navigation-menu li {
-  display: inline-block;
-  border-right: 1px solid black;
-  padding: 7px 0;
-  width: 115px;
-  /*color: #7352f5;*/
+    display: inline-block;
+    border-right: 1px solid black;
+    padding: 7px 3px;
+    width: 120px;
+    /*color: #7352f5;*/
 }
 
 .database {
-  border: 10px solid grey;
-  margin-left: 15px;
-  margin-top: 15px;
-  display: inline-block;
-  width: 50%;
-  vertical-align: top;
+    border: 10px solid grey;
+    margin-left: 15px;
+    margin-top: 15px;
+    display: inline-block;
+    width: 48%;
+    vertical-align: top;
 }
 
 .about {
-  width: 40%;
-  display: inline-block;
-  /*margin-left: 10px;*/
-  border: 1px solid black;
-  vertical-align: top;
-  margin: 15px;
-  padding-bottom: 35px;
-  background: linear-gradient(to right, #f1f9fc, #dbcedb);
+    width: 44%;
+    display: inline-block;
+    /*margin-left: 10px;*/
+    border: 1px solid black;
+    vertical-align: top;
+    margin: 15px;
+    padding-bottom: 50px;
+    background: linear-gradient(to right, #f1f9fc, #dbcedb);
 }
 
 .about h3 {
-  font-weight: bold;
-  margin: 0;
-  padding: 8px;
-  padding-left: 5px;
-  background: linear-gradient(#c9c5ca,#8c8996,#c9c5ca);
-  height: 20px;
+    font-weight: bold;
+    margin: 0;
+    padding: 8px;
+    padding-left: 5px;
+    background: linear-gradient(#c9c5ca, #8c8996, #c9c5ca);
+    height: 20px;
 }
 
 .about h4 {
-  margin: 0;
-  padding: 5px 5px;
+    margin: 0;
+    padding: 5px 5px;
 }
 
 .about p {
-  margin: 0;
-  padding: 5px 5px;
-  font-size: 14px;
+    margin: 0;
+    padding: 5px 5px;
+    font-size: 14px;
 }
-/*.middle {
-  color: #65516E;
-}*/
+
+.mid-link {
+    display: inline;
+    vertical-align: middle;
+    font-size: 10px;
+    margin-left: 800px;
+}
+
+.mid-link a {
+    color: #526492;
+    text-decoration: none;
+}
+
+.mid-link img {
+    padding-right: 5px;
+}
+
+.main-content {
+    margin-left: 15px;
+    padding-bottom: 20px;
+}
+
+.article {
+    display: inline-block;
+    vertical-align: top;
+    width: 220px;
+    margin-top: 10px;
+    margin-right: 11px;
+    /*border: 1px solid white;*/
+    /*padding-bottom: 20px;*/
+    height: 420px;
+}
+
+.article-image {
+    width: 100%;
+    height: 125px;
+    display: block;
+}
+
+.article h3 {
+    margin: 0;
+    padding: 6px 5px;
+    height: 18px;
+    background: linear-gradient(#c9c5ca, #8c8996, #c9c5ca);
+}
+
+.article p {
+    background: -webkit-linear-gradient(#919fbb, #EAEDF3);
+    background: -o-linear-gradient(#919fbb, #EAEDF3);
+    background: -moz-linear-gradient(#919fbb, #EAEDF3);
+    background: linear-gradient(#919fbb, #EAEDF3);
+    font-size: 13px;
+    height: 250px;
+    padding: 15px 5px 0 5px;
+}
 
 .read-more {
-  display: inline-block;
-  padding: 3px 7px;
-  text-decoration: none;
-  text-align: center;
-  font-weight: bold;
-  border: 3px solid #17070b;
-  border-radius: 10px;
-  box-shadow: 0 5px 20px #888888;
-  background-color: #5c729c;
-  color: #ededea;
+    display: inline-block;
+    padding: 5px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 7px;
+    box-shadow: 0 5px 20px 0 black;
+    background-color: #5c729c;
+    color: white;
+    margin-top: -50px;
+    margin-left: 80px;
+    position: absolute;
+    width: 89px;
 }
